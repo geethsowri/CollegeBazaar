@@ -1,2 +1,3 @@
 - 2025-10-01T03:21:00+05:30: wip: tweak notes (eb80f7dd)
 - 2025-10-03T17:55:26+05:30: chore: jot todo (19df8cdd)
+- 2025-10-04T05:47:25+05:30: chore: research link (fdaebb74)
