@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 0 0% 100%;
+  --fg: 240 10% 4%;
+  --muted: 240 5% 96%;
+  --border: 240 6% 90%;
+}
+
+.dark {
+  --bg: 240 10% 4%;
+  --fg: 0 0% 98%;
+  --muted: 240 4% 12%;
+  --border: 240 4% 16%;
+}
+
+html, body {
+  background: hsl(var(--bg));
+  color: hsl(var(--fg));
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "cv11", "ss01", "ss03";
+}
+
+* { border-color: hsl(var(--border)); }
+
+::selection { background: hsl(var(--fg) / 0.92); color: hsl(var(--bg)); }
+
+.scrollbar-thin::-webkit-scrollbar { width: 8px; height: 8px; }
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: hsl(var(--border));
+  border-radius: 4px;
+}
+
+@keyframes shimmer {
+  0% { background-position: -800px 0; }
+  100% { background-position: 800px 0; }
+}
+.skeleton {
+  background: linear-gradient(90deg, hsl(var(--muted)) 0%, hsl(var(--border)) 50%, hsl(var(--muted)) 100%);
+  background-size: 1600px 100%;
+  animation: shimmer 1.6s infinite linear;
+}
