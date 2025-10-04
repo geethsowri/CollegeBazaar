@@ -1,2 +1,3 @@
 - 2025-10-04T12:27:57+05:30: docs: append changelog (02a0dd5c)
 - 2025-10-05T09:00:30+05:30: wip: capture thought (9ca6387d)
+- 2025-10-05T04:55:25+05:30: chore: misc note cleanup (328454ee)
