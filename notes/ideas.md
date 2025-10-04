@@ -3,3 +3,4 @@
 - 2025-10-02T21:35:06+05:30: chore: housekeeping (f342d75f)
 - 2025-10-02T22:12:42+05:30: chore: jot todo (13d76ff1)
 - 2025-10-04T10:53:31+05:30: chore: housekeeping (e7e1aa7b)
+- 2025-10-04T12:51:21+05:30: docs: append changelog (b7ceb5a4)
