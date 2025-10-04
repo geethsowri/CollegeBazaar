@@ -1,0 +1,1 @@
+- 2025-10-04T12:27:57+05:30: docs: append changelog (02a0dd5c)
