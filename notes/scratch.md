@@ -4,3 +4,4 @@
 - 2025-10-05T12:18:56+05:30: chore: housekeeping (5e6e03f4)
 - 2025-10-05T11:17:56+05:30: chore: reword note (a9e21d5e)
 - 2025-10-06T21:03:42+05:30: chore: reword note (d3005296)
+- 2025-10-07T22:52:30+05:30: docs: snippet draft (7343e187)
