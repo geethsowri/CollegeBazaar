@@ -8,3 +8,4 @@
 - 2025-10-08T01:27:57+05:30: chore: jot todo (574f63e2)
 - 2025-10-09T04:07:37+05:30: chore: housekeeping (97af6b7f)
 - 2025-10-09T05:07:37+05:30: wip: brainstorm (a068a575)
+- 2025-10-10T03:53:24+05:30: docs: add scratch idea (0bf7bdcd)
