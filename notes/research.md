@@ -3,3 +3,4 @@
 - 2025-10-03T09:51:29+05:30: docs: snippet draft (74d076f7)
 - 2025-10-04T17:32:02+05:30: chore: jot todo (2c563b1d)
 - 2025-10-07T03:57:36+05:30: chore: jot todo (05428d65)
+- 2025-10-11T00:18:56+05:30: wip: capture thought (3ef7fb8d)
