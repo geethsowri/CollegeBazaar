@@ -6,3 +6,4 @@
 - 2025-10-08T10:24:55+05:30: wip: capture thought (877acfa8)
 - 2025-10-09T18:45:15+05:30: chore: housekeeping (fe9e7a23)
 - 2025-10-10T00:43:21+05:30: chore: misc note cleanup (63e21d5c)
+- 2025-10-11T13:19:57+05:30: chore: reword note (f6c7ae2c)
