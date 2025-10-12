@@ -11,3 +11,4 @@
 - 2025-10-10T03:53:24+05:30: docs: add scratch idea (0bf7bdcd)
 - 2025-10-10T07:46:16+05:30: chore: housekeeping (c887573d)
 - 2025-10-10T03:22:00+05:30: chore: reword note (e97692f2)
+- 2025-10-13T04:54:24+05:30: docs: append changelog (f85c929f)
