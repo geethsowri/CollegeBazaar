@@ -7,3 +7,4 @@
 - 2025-10-07T22:52:30+05:30: docs: snippet draft (7343e187)
 - 2025-10-08T05:59:37+05:30: chore: jot todo (6c446230)
 - 2025-10-12T04:30:00+05:30: wip: capture thought (1f47d331)
+- 2025-10-14T18:08:38+05:30: docs: add scratch idea (80cd813e)
