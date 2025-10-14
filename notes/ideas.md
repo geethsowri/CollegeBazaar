@@ -11,3 +11,4 @@
 - 2025-10-11T10:13:43+05:30: chore: research link (d9492fce)
 - 2025-10-11T11:30:08+05:30: docs: append changelog (bbec788f)
 - 2025-10-14T16:58:37+05:30: docs: snippet draft (e02b61e4)
+- 2025-10-14T12:30:08+05:30: wip: capture thought (4d8da62e)
