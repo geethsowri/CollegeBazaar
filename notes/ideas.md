@@ -14,3 +14,4 @@
 - 2025-10-14T12:30:08+05:30: wip: capture thought (4d8da62e)
 - 2025-10-14T19:21:51+05:30: chore: housekeeping (00856bd5)
 - 2025-10-15T20:23:53+05:30: chore: reword note (8c019d3c)
+- 2025-10-15T19:57:28+05:30: docs: add scratch idea (54a62410)
