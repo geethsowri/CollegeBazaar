@@ -9,3 +9,4 @@
 - 2025-10-12T13:15:45+05:30: docs: append changelog (29a65269)
 - 2025-10-13T22:24:54+05:30: chore: update log (9e9f9069)
 - 2025-10-14T09:36:06+05:30: chore: jot todo (1cc29c93)
+- 2025-10-15T06:24:02+05:30: docs: add scratch idea (acb12815)
