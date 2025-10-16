@@ -11,3 +11,4 @@
 - 2025-10-14T09:36:06+05:30: chore: jot todo (1cc29c93)
 - 2025-10-15T06:24:02+05:30: docs: add scratch idea (acb12815)
 - 2025-10-16T13:51:21+05:30: chore: reword note (7230900e)
+- 2025-10-16T10:41:19+05:30: wip: capture thought (274463e3)
