@@ -9,3 +9,4 @@
 - 2025-10-12T04:30:00+05:30: wip: capture thought (1f47d331)
 - 2025-10-14T18:08:38+05:30: docs: add scratch idea (80cd813e)
 - 2025-10-14T04:31:01+05:30: chore: reword note (364eecd5)
+- 2025-10-17T02:20:58+05:30: docs: outline next steps (b5e2267d)
