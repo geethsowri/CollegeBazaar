@@ -13,3 +13,4 @@
 - 2025-10-12T16:42:13+05:30: chore: research link (c4f2d44b)
 - 2025-10-13T01:16:46+05:30: wip: capture thought (3a743358)
 - 2025-10-15T02:44:22+05:30: docs: add scratch idea (4e0597aa)
+- 2025-10-17T20:15:53+05:30: wip: tweak notes (cdef92a0)
