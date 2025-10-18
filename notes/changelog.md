@@ -17,3 +17,4 @@
 - 2025-10-15T19:21:52+05:30: wip: capture thought (a24ddafe)
 - 2025-10-15T08:27:05+05:30: docs: add scratch idea (67459971)
 - 2025-10-17T11:30:08+05:30: docs: append changelog (e42748c7)
+- 2025-10-18T05:55:26+05:30: docs: outline next steps (6c03699d)
