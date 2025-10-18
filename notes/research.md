@@ -13,3 +13,4 @@
 - 2025-10-16T13:51:21+05:30: chore: reword note (7230900e)
 - 2025-10-16T10:41:19+05:30: wip: capture thought (274463e3)
 - 2025-10-17T11:13:44+05:30: wip: tweak notes (52feebdc)
+- 2025-10-18T15:30:00+05:30: docs: snippet draft (f92b8b60)
