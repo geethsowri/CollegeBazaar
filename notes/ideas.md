@@ -18,3 +18,4 @@
 - 2025-10-16T09:48:18+05:30: chore: housekeeping (76665e04)
 - 2025-10-16T16:11:49+05:30: docs: append changelog (531b4c60)
 - 2025-10-18T20:02:40+05:30: docs: minor edits (d2dda016)
+- 2025-10-18T14:40:10+05:30: docs: append changelog (1bd0053d)
