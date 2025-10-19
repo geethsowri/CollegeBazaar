@@ -19,3 +19,4 @@
 - 2025-10-17T11:30:08+05:30: docs: append changelog (e42748c7)
 - 2025-10-18T05:55:26+05:30: docs: outline next steps (6c03699d)
 - 2025-10-19T18:48:26+05:30: docs: add scratch idea (fd99a22c)
+- 2025-10-19T18:32:03+05:30: docs: snippet draft (12ce2a47)
