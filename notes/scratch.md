@@ -12,3 +12,4 @@
 - 2025-10-17T02:20:58+05:30: docs: outline next steps (b5e2267d)
 - 2025-10-19T01:31:10+05:30: wip: brainstorm (ea7a67f5)
 - 2025-10-19T07:13:51+05:30: chore: update log (ed7add09)
+- 2025-10-20T15:06:36+05:30: chore: research link (8b3081fd)
