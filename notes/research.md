@@ -15,3 +15,4 @@
 - 2025-10-17T11:13:44+05:30: wip: tweak notes (52feebdc)
 - 2025-10-18T15:30:00+05:30: docs: snippet draft (f92b8b60)
 - 2025-10-21T08:14:52+05:30: chore: housekeeping (180fd907)
+- 2025-10-21T16:46:24+05:30: docs: outline next steps (55e8fbd2)
