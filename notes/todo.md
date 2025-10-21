@@ -22,3 +22,4 @@
 - 2025-10-18T15:30:00+05:30: docs: add scratch idea (1b7a5846)
 - 2025-10-18T01:07:46+05:30: chore: reword note (6d03fff0)
 - 2025-10-20T09:04:42+05:30: wip: capture thought (fb5a886c)
+- 2025-10-21T08:02:41+05:30: chore: misc note cleanup (33f3167a)
