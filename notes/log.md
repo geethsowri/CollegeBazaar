@@ -10,3 +10,4 @@
 - 2025-10-11T03:29:59+05:30: wip: brainstorm (07041104)
 - 2025-10-17T02:17:47+05:30: wip: refine idea (f5dd9627)
 - 2025-10-21T07:49:27+05:30: chore: misc note cleanup (5772e3e1)
+- 2025-10-23T11:29:38+05:30: docs: snippet draft (01acf1ba)
