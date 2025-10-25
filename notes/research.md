@@ -19,3 +19,4 @@
 - 2025-10-21T14:16:46+05:30: wip: refine idea (ddbeb362)
 - 2025-10-23T02:16:46+05:30: chore: jot todo (b6f2c259)
 - 2025-10-25T15:17:48+05:30: docs: append changelog (4f7886a5)
+- 2025-10-25T05:31:01+05:30: chore: research link (bdaceb32)
