@@ -16,3 +16,4 @@
 - 2025-10-21T23:14:44+05:30: docs: append changelog (9b88707f)
 - 2025-10-25T05:19:49+05:30: chore: jot todo (1b72a037)
 - 2025-10-26T11:30:08+05:30: chore: update log (02cc7b14)
+- 2025-10-27T05:59:37+05:30: docs: append changelog (eb6d64d3)
