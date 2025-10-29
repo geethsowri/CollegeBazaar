@@ -27,3 +27,4 @@
 - 2025-10-26T23:17:55+05:30: docs: append changelog (3e96fdca)
 - 2025-10-26T22:01:31+05:30: wip: capture thought (bf22be77)
 - 2025-10-26T05:36:14+05:30: chore: jot todo (10518630)
+- 2025-10-29T09:40:18+05:30: docs: snippet draft (1c0e47b7)
