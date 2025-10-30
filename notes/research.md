@@ -27,3 +27,4 @@
 - 2025-10-28T02:56:34+05:30: wip: refine idea (008ad2f0)
 - 2025-10-28T10:16:55+05:30: chore: jot todo (46ea1ef1)
 - 2025-10-29T09:27:05+05:30: chore: jot todo (1c29f13a)
+- 2025-10-30T15:29:59+05:30: docs: append changelog (983896be)
