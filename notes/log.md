@@ -18,3 +18,4 @@
 - 2025-10-24T20:46:17+05:30: docs: add scratch idea (66efcb96)
 - 2025-10-27T13:44:22+05:30: chore: housekeeping (b449fd8c)
 - 2025-10-28T12:03:33+05:30: wip: refine idea (2f0ab475)
+- 2025-10-30T19:01:39+05:30: docs: outline next steps (3e461708)
