@@ -33,3 +33,4 @@
 - 2025-10-30T21:47:18+05:30: wip: capture thought (aa608029)
 - 2025-10-31T23:49:19+05:30: docs: outline next steps (4a89f056)
 - 2025-10-31T00:38:09+05:30: wip: brainstorm (8c976587)
+- 2025-10-31T02:56:34+05:30: docs: append changelog (edc8c1d8)
