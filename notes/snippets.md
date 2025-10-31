@@ -23,3 +23,4 @@
 - 2025-10-26T22:04:42+05:30: docs: snippet draft (234137ee)
 - 2025-10-29T21:36:06+05:30: docs: minor edits (428783f4)
 - 2025-10-30T01:52:22+05:30: chore: update log (5694a07e)
+- 2025-10-31T15:18:48+05:30: docs: append changelog (421f17bb)
