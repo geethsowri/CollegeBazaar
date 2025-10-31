@@ -31,3 +31,4 @@
 - 2025-10-29T11:37:07+05:30: docs: append changelog (2872f92e)
 - 2025-10-30T00:54:32+05:30: chore: reword note (65498e8a)
 - 2025-10-30T21:47:18+05:30: wip: capture thought (aa608029)
+- 2025-10-31T23:49:19+05:30: docs: outline next steps (4a89f056)
