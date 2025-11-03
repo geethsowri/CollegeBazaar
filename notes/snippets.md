@@ -25,3 +25,4 @@
 - 2025-10-30T01:52:22+05:30: chore: update log (5694a07e)
 - 2025-10-31T15:18:48+05:30: docs: append changelog (421f17bb)
 - 2025-11-02T11:49:19+05:30: docs: add scratch idea (3b46a16f)
+- 2025-11-04T04:23:01+05:30: docs: snippet draft (696ebb1b)
