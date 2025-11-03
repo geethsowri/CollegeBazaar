@@ -36,3 +36,4 @@
 - 2025-10-31T02:56:34+05:30: docs: append changelog (edc8c1d8)
 - 2025-11-02T16:59:37+05:30: docs: append changelog (ee7b6d72)
 - 2025-11-02T07:37:15+05:30: chore: jot todo (257258cc)
+- 2025-11-03T22:52:31+05:30: wip: tweak notes (89671cd2)
