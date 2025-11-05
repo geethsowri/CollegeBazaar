@@ -3,6 +3,8 @@ import { Listing } from "@/models/Listing";
 import { listingCreateSchema, listingFiltersSchema } from "@/lib/validators/listing";
 import { requireSession } from "@/lib/auth/session";
 import { fail, handle, ok } from "@/lib/utils/api";
+import { toCursorPage, buildSort } from "@/lib/utils/pagination";
+import { rateLimit, rateLimitKey } from "@/lib/utils/rateLimit";
 
 export async function GET(req: Request) {
   try {
@@ -25,23 +27,13 @@ export async function GET(req: Request) {
     }
     if (filters.cursor) query._id = { $lt: filters.cursor };
 
-    const sort =
-      filters.sort === "price_asc"
-        ? { sellingPrice: 1 as const }
-        : filters.sort === "price_desc"
-          ? { sellingPrice: -1 as const }
-          : { createdAt: -1 as const };
-
     const items = await Listing.find(query)
-      .sort(sort)
+      .sort(buildSort(filters.sort))
       .limit(filters.limit + 1)
       .populate("seller", "name avatarUrl branch year ratingSum ratingCount")
       .lean();
 
-    const hasMore = items.length > filters.limit;
-    const page = hasMore ? items.slice(0, -1) : items;
-    const nextCursor = hasMore ? String(page[page.length - 1]._id) : null;
-    return ok({ items: page, nextCursor });
+    return ok(toCursorPage(items, filters.limit));
   } catch (e) {
     return handle(e);
   }
@@ -49,6 +41,10 @@ export async function GET(req: Request) {
 
 export async function POST(req: Request) {
   try {
+    // Rate-limit: max 10 listings per hour per IP
+    const rl = rateLimit(rateLimitKey(req, "create_listing"), { limit: 10, windowSec: 3600 });
+    if (!rl.ok) return fail("rate_limit_exceeded", 429);
+
     const session = await requireSession();
     if (!session.emailVerified) return fail("email_not_verified", 403);
     const body = listingCreateSchema.parse(await req.json());
