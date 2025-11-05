@@ -38,3 +38,4 @@
 - 2025-11-02T07:37:15+05:30: chore: jot todo (257258cc)
 - 2025-11-03T22:52:31+05:30: wip: tweak notes (89671cd2)
 - 2025-11-03T18:36:15+05:30: chore: research link (5b32dbb7)
+- 2025-11-05T06:01:39+05:30: docs: outline next steps (4b45981b)
