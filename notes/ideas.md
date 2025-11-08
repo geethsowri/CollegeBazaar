@@ -41,3 +41,4 @@
 - 2025-11-05T06:01:39+05:30: docs: outline next steps (4b45981b)
 - 2025-11-07T14:04:35+05:30: chore: jot todo (2df7e952)
 - 2025-11-07T03:57:36+05:30: docs: minor edits (fa98313e)
+- 2025-11-08T20:58:28+05:30: docs: add scratch idea (f73139e9)
