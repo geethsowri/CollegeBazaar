@@ -27,3 +27,4 @@
 - 2025-11-02T11:49:19+05:30: docs: add scratch idea (3b46a16f)
 - 2025-11-04T04:23:01+05:30: docs: snippet draft (696ebb1b)
 - 2025-11-12T04:34:12+05:30: wip: refine idea (5286fff1)
+- 2025-11-12T10:24:54+05:30: wip: capture thought (c369de27)
