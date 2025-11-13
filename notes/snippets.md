@@ -28,3 +28,4 @@
 - 2025-11-04T04:23:01+05:30: docs: snippet draft (696ebb1b)
 - 2025-11-12T04:34:12+05:30: wip: refine idea (5286fff1)
 - 2025-11-12T10:24:54+05:30: wip: capture thought (c369de27)
+- 2025-11-13T06:13:51+05:30: chore: research link (e0f8b266)
