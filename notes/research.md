@@ -36,3 +36,4 @@
 - 2025-11-12T22:13:43+05:30: wip: capture thought (0c6b6f6d)
 - 2025-11-13T14:45:23+05:30: docs: append changelog (05a95875)
 - 2025-11-14T15:53:23+05:30: chore: update log (24b781b4)
+- 2025-11-14T05:07:38+05:30: chore: research link (8856ed00)
