@@ -27,3 +27,4 @@
 - 2025-11-07T01:43:14+05:30: docs: outline next steps (86e7b4b5)
 - 2025-11-07T06:08:38+05:30: wip: brainstorm (c39569e7)
 - 2025-11-13T21:39:17+05:30: wip: capture thought (4677d8ce)
+- 2025-11-14T23:13:43+05:30: chore: research link (39792f70)
