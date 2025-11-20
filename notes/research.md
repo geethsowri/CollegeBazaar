@@ -37,3 +37,4 @@
 - 2025-11-13T14:45:23+05:30: docs: append changelog (05a95875)
 - 2025-11-14T15:53:23+05:30: chore: update log (24b781b4)
 - 2025-11-14T05:07:38+05:30: chore: research link (8856ed00)
+- 2025-11-20T18:56:26+05:30: chore: jot todo (61e8c430)
