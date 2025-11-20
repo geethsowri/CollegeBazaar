@@ -36,3 +36,4 @@
 - 2025-11-05T18:20:50+05:30: chore: jot todo (7fe16825)
 - 2025-11-17T09:47:17+05:30: chore: update log (0ee7c523)
 - 2025-11-17T06:56:27+05:30: chore: reword note (6b278331)
+- 2025-11-20T20:02:41+05:30: chore: research link (029bab1f)
