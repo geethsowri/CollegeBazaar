@@ -32,3 +32,4 @@
 - 2025-11-14T09:27:05+05:30: wip: tweak notes (1abb3143)
 - 2025-11-14T23:25:56+05:30: wip: capture thought (36117375)
 - 2025-11-14T13:31:09+05:30: docs: minor edits (9dadf273)
+- 2025-11-20T20:46:17+05:30: docs: snippet draft (eda36f16)
