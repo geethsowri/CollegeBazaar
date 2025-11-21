@@ -46,3 +46,4 @@
 - 2025-11-17T11:49:19+05:30: docs: snippet draft (69d8a54b)
 - 2025-11-20T06:24:03+05:30: wip: tweak notes (dbaf4b68)
 - 2025-11-21T08:58:29+05:30: docs: append changelog (eaefee24)
+- 2025-11-21T11:53:31+05:30: docs: add scratch idea (a2926f0a)
