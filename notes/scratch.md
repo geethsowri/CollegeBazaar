@@ -39,3 +39,4 @@
 - 2025-11-17T07:14:52+05:30: wip: brainstorm (f5ca7232)
 - 2025-11-20T22:36:07+05:30: docs: add scratch idea (b8005e12)
 - 2025-11-21T18:00:39+05:30: chore: housekeeping (ba4c66f2)
+- 2025-11-23T05:08:38+05:30: docs: snippet draft (da126c02)
