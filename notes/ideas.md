@@ -49,3 +49,4 @@
 - 2025-11-21T11:53:31+05:30: docs: add scratch idea (a2926f0a)
 - 2025-11-23T01:51:21+05:30: docs: append changelog (b60afa1e)
 - 2025-11-23T06:13:51+05:30: docs: minor edits (b18f208a)
+- 2025-11-29T09:11:41+05:30: docs: append changelog (614438ed)
