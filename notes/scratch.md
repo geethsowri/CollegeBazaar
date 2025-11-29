@@ -45,3 +45,4 @@
 - 2025-11-23T14:53:23+05:30: docs: minor edits (0974f04d)
 - 2025-11-23T04:06:36+05:30: wip: brainstorm (924da6b0)
 - 2025-11-29T18:37:15+05:30: chore: misc note cleanup (bbf46ef6)
+- 2025-11-29T08:34:05+05:30: docs: append changelog (2a863bc2)
