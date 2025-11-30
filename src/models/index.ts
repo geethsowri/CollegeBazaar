@@ -1,3 +1,7 @@
+/**
+ * Barrel exports for all Mongoose models.
+ * Import from "@/models" instead of individual model files.
+ */
 export { User } from "./User";
 export { Listing } from "./Listing";
 export { Order } from "./Order";
