@@ -147,7 +147,7 @@ export function ProductActions({ listingId, sellerId, isSold }: Props) {
           <Select
             label="Reason"
             value={reportReason}
-            onValueChange={setReportReason}
+            onValueChange={(v) => setReportReason(v ?? "")}
             options={[
               { value: "spam", label: "Spam" },
               { value: "fake", label: "Fake / scam" },

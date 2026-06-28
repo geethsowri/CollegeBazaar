@@ -32,7 +32,7 @@ export default function ForgotPasswordPage() {
   return (
     <div className="mx-auto flex min-h-[80vh] max-w-md flex-col justify-center px-4 py-12">
       <h1 className="font-display text-3xl font-semibold tracking-tight">Forgot password</h1>
-      <p className="mt-2 text-sm text-ink-500">We'll send a 6-digit code to reset it.</p>
+      <p className="mt-2 text-sm text-ink-500">We&apos;ll send a 6-digit code to reset it.</p>
       <form onSubmit={submit} className="mt-8 flex flex-col gap-4">
         <Input label="College email" type="email" required value={email} onChange={(e) => setEmail(e.currentTarget.value)} />
         <Button size="lg" loading={loading}>Send code</Button>
