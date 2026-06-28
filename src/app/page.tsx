@@ -51,7 +51,7 @@ function Hero() {
               Buy affordable college essentials from peers.
             </h1>
             <p className="mt-5 max-w-xl text-base text-ink-500 sm:text-lg">
-              Mini drafters. Calculators. Lab aprons. Get them at student prices from seniors who don't need them anymore.
+              Mini drafters. Calculators. Lab aprons. Get them at student prices from seniors who don&apos;t need them anymore.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link href="/browse">
