@@ -78,7 +78,7 @@ export default function ProfilePage() {
         <Input label="Phone" value={profile.phone} onChange={(e) => setProfile({ ...profile, phone: e.currentTarget.value })} />
         <Input label="Branch" value={profile.branch} onChange={(e) => setProfile({ ...profile, branch: e.currentTarget.value })} placeholder="CSE / ME / EE…" />
         <Input label="Year" type="number" min={1} max={6} value={profile.year ?? ""} onChange={(e) => setProfile({ ...profile, year: e.currentTarget.value ? Number(e.currentTarget.value) : null })} />
-        <Select label="Residence" value={profile.residence || ""} onValueChange={(v) => setProfile({ ...profile, residence: v as Profile["residence"] })}
+        <Select label="Residence" value={profile.residence || ""} onValueChange={(v) => setProfile({ ...profile, residence: (v as Profile["residence"]) ?? "" })}
           options={[
             { value: "", label: "Prefer not to say" },
             { value: "hosteller", label: "Hosteller" },

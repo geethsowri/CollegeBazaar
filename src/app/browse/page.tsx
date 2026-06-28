@@ -99,13 +99,13 @@ export default function BrowsePage() {
       </div>
 
       <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
-        <Select label="Category" options={categoryOpts} value={category} onValueChange={setCategory} />
-        <Select label="Condition" options={conditionOpts} value={condition} onValueChange={setCondition} />
+        <Select label="Category" options={categoryOpts} value={category} onValueChange={(v) => setCategory(v ?? "")} />
+        <Select label="Condition" options={conditionOpts} value={condition} onValueChange={(v) => setCondition(v ?? "")} />
         <Select label="Sort by" options={[
           { value: "new", label: "Newest" },
           { value: "price_asc", label: "Price: low to high" },
           { value: "price_desc", label: "Price: high to low" },
-        ]} value={sort} onValueChange={setSort} />
+        ]} value={sort} onValueChange={(v) => setSort((v as any) ?? "new")} />
         <Button variant="outline" className="mt-6 self-end" onClick={() => { setQ(""); setCategory(""); setCondition(""); setSort("new"); }}>
           <SlidersHorizontal className="h-4 w-4" /> Reset
         </Button>
@@ -118,7 +118,7 @@ export default function BrowsePage() {
           : null}
       </div>
       {!hasMore && !loading && items.length > 0 ? (
-        <p className="mt-10 text-center text-sm text-ink-500">You're all caught up.</p>
+        <p className="mt-10 text-center text-sm text-ink-500">You&apos;re all caught up.</p>
       ) : null}
       <div ref={sentinel} className="h-1" />
     </div>
