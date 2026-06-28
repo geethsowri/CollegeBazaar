@@ -87,9 +87,9 @@ export default function SellPage() {
         <Input label="Title" value={title} onChange={(e) => setTitle(e.currentTarget.value)} required maxLength={120} placeholder="Casio fx-991ES Plus, used 1 sem" />
         <Textarea label="Description" value={description} onChange={(e) => setDescription(e.currentTarget.value)} required maxLength={2000} placeholder="Condition, what's included, why you're selling…" />
         <div className="grid gap-4 sm:grid-cols-2">
-          <Select label="Category" value={category} onValueChange={(v) => setCategory(v as Category)}
+          <Select label="Category" value={category} onValueChange={(v) => setCategory((v as Category) ?? "")}
             options={CATEGORIES.map((c) => ({ value: c, label: CATEGORY_LABELS[c] }))} />
-          <Select label="Condition" value={condition} onValueChange={(v) => setCondition(v as Condition)}
+          <Select label="Condition" value={condition} onValueChange={(v) => setCondition((v as Condition) ?? "")}
             options={CONDITIONS.map((c) => ({ value: c, label: CONDITION_LABELS[c] }))} />
         </div>
         <div className="grid gap-4 sm:grid-cols-2">

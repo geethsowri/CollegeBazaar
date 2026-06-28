@@ -15,7 +15,7 @@ interface Props {
   placeholder?: string;
   options: Option[];
   value?: string;
-  onValueChange?: (v: string) => void;
+  onValueChange?: (v: string | null) => void;
   className?: string;
 }
 
@@ -25,7 +25,7 @@ export function Select({ label, placeholder, options, value, onValueChange, clas
       {label ? <span className="text-sm font-medium text-ink-700 dark:text-ink-200">{label}</span> : null}
       <BaseSelect.Root value={value} onValueChange={onValueChange}>
         <BaseSelect.Trigger className="flex h-10 w-full items-center justify-between rounded-xl border border-ink-200 bg-white px-3 text-sm text-ink-900 hover:border-ink-300 focus:outline-none focus:ring-2 focus:ring-ink-900/10 dark:border-ink-700 dark:bg-ink-900 dark:text-white">
-          <BaseSelect.Value placeholder={placeholder ?? "Select…"} />
+          <BaseSelect.Value>{value ? options.find((o) => o.value === value)?.label : (placeholder ?? "Select…")}</BaseSelect.Value>
           <BaseSelect.Icon>
             <ChevronDown className="h-4 w-4 text-ink-500" />
           </BaseSelect.Icon>
