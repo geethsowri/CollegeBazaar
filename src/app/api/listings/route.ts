@@ -3,7 +3,7 @@ import { Listing } from "@/models/Listing";
 import { listingCreateSchema, listingFiltersSchema } from "@/lib/validators/listing";
 import { requireSession } from "@/lib/auth/session";
 import { fail, handle, ok } from "@/lib/utils/api";
-import { toCursorPage, buildSort } from "@/lib/utils/pagination";
+import { toCursorPage, buildSort, decodeCursor } from "@/lib/utils/pagination";
 import { rateLimit, rateLimitKey } from "@/lib/utils/rateLimit";
 
 export async function GET(req: Request) {
@@ -25,7 +25,34 @@ export async function GET(req: Request) {
         ...(filters.maxPrice ? { $lte: filters.maxPrice } : {}),
       };
     }
-    if (filters.cursor) query._id = { $lt: filters.cursor };
+    if (filters.cursor) {
+      const decoded = decodeCursor(filters.cursor);
+      if (decoded) {
+        const { field, value, id } = decoded;
+        // Apply a range filter on the sort field + _id tiebreaker so the
+        // query picks up exactly where the previous page left off.
+        if (field === "createdAt") {
+          const date = new Date(value);
+          query.$or = [
+            { createdAt: { $lt: date } },
+            { createdAt: date, _id: { $lt: id } },
+          ];
+        } else if (field === "sellingPrice") {
+          const price = Number(value);
+          const isAsc = filters.sort === "price_asc";
+          query.$or = isAsc
+            ? [
+                { sellingPrice: { $gt: price } },
+                { sellingPrice: price, _id: { $gt: id } },
+              ]
+            : [
+                { sellingPrice: { $lt: price } },
+                { sellingPrice: price, _id: { $lt: id } },
+              ];
+        }
+      }
+      // If cursor is malformed/undecodable we simply ignore it and return the first page.
+    }
 
     const items = await Listing.find(query)
       .sort(buildSort(filters.sort))
@@ -33,7 +60,7 @@ export async function GET(req: Request) {
       .populate("seller", "name avatarUrl branch year ratingSum ratingCount")
       .lean();
 
-    return ok(toCursorPage(items, filters.limit));
+    return ok(toCursorPage(items, filters.limit, filters.sort));
   } catch (e) {
     return handle(e);
   }
